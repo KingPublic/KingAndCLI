@@ -118,16 +118,26 @@ Berikut adalah contoh sesi penggunaan CLI:
 ```bash
 >>> help
 Daftar perintah:
-- ls
-- pwd
-- cd <path>
-- mkdir <name>
-- rmdir <name>
-- touch <file>
-- rm <file>
-- random_anime
-- clear
-- exit
+def help():
+    print("""
+Available commands:
+- ls: List files and directories
+- pwd: Print current directory
+- cd <path>: Change directory
+- mkdir <name>: Create a directory
+- rmdir <name>: Remove a directory (if empty)
+- touch <file>: Create an empty file
+- rm <file>: Remove a file
+- cp <source> <destination>: Copy a file
+- mv <source> <destination>: Move or rename a file/directory
+- clear: Clear the terminal
+- exit: Exit the CLI
+- log <command>: Save command history to a log file
+- joke: Display a random joke
+- search <pattern>: Search for files/directories by name
+- find_large <size>: Display files larger than the specified size (in bytes)
+    """)
+
 
 >>> random_anime
   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣬
@@ -181,7 +191,7 @@ Terima kasih telah menggunakan CLI. Selamat tinggal!
 
 ## Simulasi Sistem File
 
-Meskipun CLI ini mendukung perintah sistem file umum, harap dicatat bahwa ini adalah simulasi. File dan direktori tidak benar-benar dibuat, dihapus, atau dimodifikasi pada sistem Anda. Ini semua hanya untuk kesenangan dan tujuan pembelajaran OS.
+Meskipun CLI ini mendukung perintah sistem file umum, harap dicatat bahwa ini adalah simulasi atau dimodifikasi pada sistem Anda. Ini semua hanya untuk kesenangan dan tujuan pembelajaran OS.
 
 ## Kustomisasi
 
