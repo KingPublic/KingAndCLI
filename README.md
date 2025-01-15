@@ -30,7 +30,7 @@ Untuk menjalankan CLI ini, Anda tidak memerlukan pustaka tambahan—hanya pustak
 
 3. CLI akan dimulai dan menampilkan seni ASCII selamat datang.
 
-## Perintah yang Tersedia
+## Perintah yang Tersedia (tidak semua ada disini - > check help untuk melihat semua)
 
 Berikut adalah perintah-perintah yang dapat Anda gunakan dalam CLI:
 
